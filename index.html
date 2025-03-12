@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Understanding POTS - Postural Orthostatic Tachycardia Syndrome</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+theme: {
+extend: {
+colors: {
+primary: '#1e40af',
+secondary: '#3b82f6'
+},
+borderRadius: {
+'none': '0px',
+'sm': '4px',
+DEFAULT: '8px',
+'md': '12px',
+'lg': '16px',
+'xl': '20px',
+'2xl': '24px',
+'3xl': '32px',
+'full': '9999px',
+'button': '8px'
+}
+}
+}
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+body { font-family: 'Inter', sans-serif; }
+</style>
+</head>
+<body class="bg-gray-900 text-gray-100">
+<header class="fixed w-full top-0 z-50 bg-gray-900/95 backdrop-blur-sm border-b border-gray-800">
+<nav class="container mx-auto px-6 py-4">
+<div class="flex items-center justify-between">
+<a href="#" class="text-2xl font-['Pacifico'] text-white">
+  <img src="pots-logo.webp" alt="Logo" class="h-10">
+</a>
+<div class="hidden md:flex items-center space-x-8">
+<a href="#about" class="hover:text-blue-400 transition-colors">About POTS</a>
+<a href="#symptoms" class="hover:text-blue-400 transition-colors">Symptoms</a>
+<a href="#diagnosis" class="hover:text-blue-400 transition-colors">Diagnosis</a>
+<a href="#treatment" class="hover:text-blue-400 transition-colors">Treatment</a>
+<button class="px-6 py-2 bg-primary text-white rounded-button hover:bg-blue-700 transition-colors">
+Contact Us
+</button>
+</div>
+</div>
+</nav>
+</header>
+<main class="pt-20">
+<section class="relative min-h-[80vh] flex items-center" style="background-image: url('https://public.readdy.ai/ai/img_res/bf3f0ce722d2613ecdeece684f5a22c7.jpg'); background-size: cover; background-position: center;">
+<div class="absolute inset-0 bg-gradient-to-r from-gray-900 to-gray-900/40"></div>
+<div class="container mx-auto px-6 relative">
+<div class="max-w-3xl">
+<h1 class="text-5xl font-bold mb-6 leading-tight">Understanding POTS: Postural Orthostatic Tachycardia Syndrome</h1>
+<p class="text-xl text-gray-300 mb-8">POTS is a form of dysautonomia that affects the body's automatic functions, particularly blood flow regulation when changing positions. Learn about its symptoms, diagnosis, and treatment options.</p>
+<div class="flex space-x-4">
+<button class="px-8 py-3 bg-primary text-white rounded-button hover:bg-blue-700 transition-colors">
+Learn More
+</button>
+<button class="px-8 py-3 bg-gray-800 text-white rounded-button hover:bg-gray-700 transition-colors">
+Find Support
+</button>
+</div>
+</div>
+</div>
+</section>
+<section id="about" class="py-20 bg-gray-800">
+<div class="container mx-auto px-6">
+<h2 class="text-3xl font-bold mb-12 text-center">What is POTS?</h2>
+<div class="grid md:grid-cols-2 gap-12 items-center">
+<div>
+<img src="https://public.readdy.ai/ai/img_res/8aafe41b21c1917310b3471739221bc6.jpg" alt="POTS Illustration" class="rounded-lg shadow-xl">
+</div>
+<div>
+<p class="text-gray-300 mb-6">Postural Orthostatic Tachycardia Syndrome (POTS) is a condition that affects the autonomic nervous system, which controls involuntary body functions like heart rate, blood pressure, and digestion.</p>
+<p class="text-gray-300 mb-6">When a person with POTS stands up, their heart rate increases abnormally, often accompanied by symptoms such as lightheadedness, fatigue, and brain fog.</p>
+<div class="space-y-4">
+<div class="flex items-start">
+<div class="w-12 h-12 flex items-center justify-center bg-blue-900 rounded-full mr-4">
+<i class="ri-heart-pulse-line text-2xl text-blue-400"></i>
+</div>
+<div>
+<h3 class="text-lg font-semibold mb-2">Affects Blood Flow</h3>
+<p class="text-gray-400">POTS impacts how blood flows through the body, especially when changing positions.</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-12 h-12 flex items-center justify-center bg-blue-900 rounded-full mr-4">
+<i class="ri-mental-health-line text-2xl text-blue-400"></i>
+</div>
+<div>
+<h3 class="text-lg font-semibold mb-2">Autonomic Dysfunction</h3>
+<p class="text-gray-400">The condition involves dysfunction of the autonomic nervous system.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="symptoms" class="py-20 bg-gray-900">
+<div class="container mx-auto px-6">
+<h2 class="text-3xl font-bold mb-12 text-center">Common Symptoms</h2>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="bg-gray-800 p-8 rounded-lg">
+<div class="w-16 h-16 flex items-center justify-center bg-blue-900 rounded-full mb-6">
+<i class="ri-heart-2-line text-2xl text-blue-400"></i>
+</div>
+<h3 class="text-xl font-semibold mb-4">Cardiovascular</h3>
+<ul class="space-y-3 text-gray-300">
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line mr-2 text-blue-400"></i>
+Rapid heartbeat upon standing
+</li>
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line mr-2 text-blue-400"></i>
+Chest pain or palpitations
+</li>
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line mr-2 text-blue-400"></i>
+Low blood pressure
+</li>
+</ul>
+</div>
+<div class="bg-gray-800 p-8 rounded-lg">
+<div class="w-16 h-16 flex items-center justify-center bg-blue-900 rounded-full mb-6">
+<i class="ri-brain-line text-2xl text-blue-400"></i>
+</div>
+<h3 class="text-xl font-semibold mb-4">Neurological</h3>
+<ul class="space-y-3 text-gray-300">
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line mr-2 text-blue-400"></i>
+Brain fog and difficulty concentrating
+</li>
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line mr-2 text-blue-400"></i>
+Headaches and migraines
+</li>
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line mr-2 text-blue-400"></i>
+Dizziness or lightheadedness
+</li>
+</ul>
+</div>
+<div class="bg-gray-800 p-8 rounded-lg">
+<div class="w-16 h-16 flex items-center justify-center bg-blue-900 rounded-full mb-6">
+<i class="ri-rest-time-line text-2xl text-blue-400"></i>
+</div>
+<h3 class="text-xl font-semibold mb-4">General</h3>
+<ul class="space-y-3 text-gray-300">
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line mr-2 text-blue-400"></i>
+Chronic fatigue
+</li>
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line mr-2 text-blue-400"></i>
+Exercise intolerance
+</li>
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line mr-2 text-blue-400"></i>
+Temperature regulation issues
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="diagnosis" class="py-20 bg-gray-800">
+<div class="container mx-auto px-6">
+<h2 class="text-3xl font-bold mb-12 text-center">Diagnosis & Testing</h2>
+<div class="grid md:grid-cols-2 gap-12">
+<div>
+<h3 class="text-2xl font-semibold mb-6">Diagnostic Criteria</h3>
+<div class="space-y-6">
+<div class="bg-gray-900 p-6 rounded-lg">
+<h4 class="text-lg font-semibold mb-4 flex items-center">
+<i class="ri-heart-pulse-line text-blue-400 mr-2"></i>
+Tilt Table Test
+</h4>
+<p class="text-gray-300">A specialized test that monitors heart rate and blood pressure changes while tilting a patient from lying to standing position.</p>
+</div>
+<div class="bg-gray-900 p-6 rounded-lg">
+<h4 class="text-lg font-semibold mb-4 flex items-center">
+<i class="ri-test-tube-line text-blue-400 mr-2"></i>
+Blood Tests
+</h4>
+<p class="text-gray-300">Various blood tests to rule out other conditions and check for underlying causes.</p>
+</div>
+<div class="bg-gray-900 p-6 rounded-lg">
+<h4 class="text-lg font-semibold mb-4 flex items-center">
+<i class="ri-file-list-3-line text-blue-400 mr-2"></i>
+Medical History
+</h4>
+<p class="text-gray-300">Detailed review of symptoms, triggers, and family history.</p>
+</div>
+</div>
+</div>
+<div>
+<img src="https://public.readdy.ai/ai/img_res/60f84dbb44e1b534a6b1149139f2ef29.jpg" alt="Diagnostic Equipment" class="rounded-lg shadow-xl mb-6">
+<div class="bg-gray-900 p-6 rounded-lg">
+<h4 class="text-lg font-semibold mb-4">Important Notes</h4>
+<ul class="space-y-3 text-gray-300">
+<li class="flex items-start">
+<i class="ri-information-line text-blue-400 mr-2 mt-1"></i>
+Diagnosis can be challenging and may take time
+</li>
+<li class="flex items-start">
+<i class="ri-information-line text-blue-400 mr-2 mt-1"></i>
+Multiple tests may be necessary
+</li>
+<li class="flex items-start">
+<i class="ri-information-line text-blue-400 mr-2 mt-1"></i>
+Symptoms can vary significantly between patients
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="treatment" class="py-20 bg-gray-900">
+<div class="container mx-auto px-6">
+<h2 class="text-3xl font-bold mb-12 text-center">Treatment Approaches</h2>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="bg-gray-800 p-8 rounded-lg">
+<div class="w-16 h-16 flex items-center justify-center bg-blue-900 rounded-full mb-6">
+<i class="ri-medicine-bottle-line text-2xl text-blue-400"></i>
+</div>
+<h3 class="text-xl font-semibold mb-4">Medications</h3>
+<ul class="space-y-3 text-gray-300">
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line mr-2 text-blue-400"></i>
+Beta blockers
+</li>
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line mr-2 text-blue-400"></i>
+Fludrocortisone
+</li>
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line mr-2 text-blue-400"></i>
+Midodrine
+</li>
+</ul>
+</div>
+<div class="bg-gray-800 p-8 rounded-lg">
+<div class="w-16 h-16 flex items-center justify-center bg-blue-900 rounded-full mb-6">
+<i class="ri-heart-add-line text-2xl text-blue-400"></i>
+</div>
+<h3 class="text-xl font-semibold mb-4">Lifestyle Changes</h3>
+<ul class="space-y-3 text-gray-300">
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line mr-2 text-blue-400"></i>
+Increased fluid intake
+</li>
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line mr-2 text-blue-400"></i>
+Salt supplementation
+</li>
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line mr-2 text-blue-400"></i>
+Graduated exercise program
+</li>
+</ul>
+</div>
+<div class="bg-gray-800 p-8 rounded-lg">
+<div class="w-16 h-16 flex items-center justify-center bg-blue-900 rounded-full mb-6">
+<i class="ri-mental-health-line text-2xl text-blue-400"></i>
+</div>
+<h3 class="text-xl font-semibold mb-4">Support Measures</h3>
+<ul class="space-y-3 text-gray-300">
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line mr-2 text-blue-400"></i>
+Compression garments
+</li>
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line mr-2 text-blue-400"></i>
+Physical therapy
+</li>
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line mr-2 text-blue-400"></i>
+Psychological support
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 bg-gray-800">
+<div class="container mx-auto px-6">
+<div class="max-w-4xl mx-auto">
+<h2 class="text-3xl font-bold mb-12 text-center">Personal Progress Tracker</h2>
+<div class="bg-gray-900 p-6 rounded-lg mb-12">
+<div class="flex justify-between items-center mb-6">
+<h3 class="text-xl font-semibold">My Helpful Activities</h3>
+<button id="addActivityBtn" class="px-4 py-2 bg-primary text-white rounded-button hover:bg-blue-700 transition-colors flex items-center">
+<i class="ri-add-line mr-2"></i> Add Activity
+</button>
+</div>
+<div id="activitiesList" class="space-y-4">
+</div>
+</div>
+<div class="text-center">
+<h3 class="text-2xl font-bold mb-6">Get Support and Resources</h3>
+<p class="text-gray-300 mb-8">Join our community to connect with other POTS patients, access educational resources, and stay updated on the latest research.</p>
+<div class="flex flex-col sm:flex-row justify-center gap-4">
+<button class="px-8 py-3 bg-primary text-white rounded-button hover:bg-blue-700 transition-colors">
+Join Support Group
+</button>
+<button class="px-8 py-3 bg-gray-900 text-white rounded-button hover:bg-gray-700 transition-colors">
+Download Resources
+</button>
+</div>
+</div>
+</div>
+</div>
+<div id="addActivityModal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+<div class="bg-gray-800 p-6 rounded-lg w-full max-w-md">
+<h3 class="text-xl font-semibold mb-4">Add New Activity</h3>
+<form id="activityForm" class="space-y-4">
+<div>
+<label class="block text-sm font-medium mb-2">Activity Name</label>
+<input type="text" id="activityName" class="w-full px-4 py-2 bg-gray-900 border-none rounded-button text-white placeholder-gray-400" placeholder="Enter activity name">
+</div>
+<div>
+<label class="block text-sm font-medium mb-2">Description</label>
+<textarea id="activityDescription" class="w-full px-4 py-2 bg-gray-900 border-none rounded-button text-white placeholder-gray-400" rows="3" placeholder="How did this help you?"></textarea>
+</div>
+<div>
+<label class="block text-sm font-medium mb-2">Effectiveness Rating</label>
+<select id="activityRating" class="w-full px-4 py-2 bg-gray-900 border-none rounded-button text-white placeholder-gray-400">
+<option value="5">Very Helpful (5/5)</option>
+<option value="4">Helpful (4/5)</option>
+<option value="3">Moderately Helpful (3/5)</option>
+<option value="2">Slightly Helpful (2/5)</option>
+<option value="1">Not Very Helpful (1/5)</option>
+</select>
+</div>
+<div class="flex justify-end gap-4 mt-6">
+<button type="button" id="cancelActivityBtn" class="px-4 py-2 bg-gray-700 text-white rounded-button hover:bg-gray-600 transition-colors">Cancel</button>
+<button type="submit" class="px-4 py-2 bg-primary text-white rounded-button hover:bg-blue-700 transition-colors">Add Activity</button>
+</div>
+</form>
+</div>
+</div>
+<script>
+const activities = JSON.parse(localStorage.getItem('potsActivities')) || [];
+const activitiesList = document.getElementById('activitiesList');
+const addActivityBtn = document.getElementById('addActivityBtn');
+const addActivityModal = document.getElementById('addActivityModal');
+const activityForm = document.getElementById('activityForm');
+const cancelActivityBtn = document.getElementById('cancelActivityBtn');
+function renderActivities() {
+activitiesList.innerHTML = activities.map((activity, index) => `
+<div class="bg-gray-800 p-4 rounded-lg flex items-center justify-between">
+<div>
+<h4 class="font-semibold">${activity.name}</h4>
+<p class="text-gray-400 text-sm mt-1">${activity.description}</p>
+<div class="flex items-center mt-2">
+${Array(5).fill().map((_, i) => `
+<i class="${i < activity.rating ? 'ri-star-fill' : 'ri-star-line'} text-yellow-400"></i>
+`).join('')}
+</div>
+</div>
+<button onclick="deleteActivity(${index})" class="text-gray-400 hover:text-red-400 transition-colors">
+<i class="ri-delete-bin-line"></i>
+</button>
+</div>
+`).join('');
+}
+function deleteActivity(index) {
+activities.splice(index, 1);
+localStorage.setItem('potsActivities', JSON.stringify(activities));
+renderActivities();
+}
+addActivityBtn.addEventListener('click', () => {
+addActivityModal.classList.remove('hidden');
+});
+cancelActivityBtn.addEventListener('click', () => {
+addActivityModal.classList.add('hidden');
+activityForm.reset();
+});
+activityForm.addEventListener('submit', (e) => {
+e.preventDefault();
+const newActivity = {
+name: document.getElementById('activityName').value,
+description: document.getElementById('activityDescription').value,
+rating: parseInt(document.getElementById('activityRating').value)
+};
+activities.push(newActivity);
+localStorage.setItem('potsActivities', JSON.stringify(activities));
+renderActivities();
+addActivityModal.classList.add('hidden');
+activityForm.reset();
+});
+renderActivities();
+</script>
+</section>
+</main>
+<footer class="bg-gray-900 border-t border-gray-800">
+<div class="container mx-auto px-6 py-12">
+<div class="grid md:grid-cols-4 gap-8">
+<div>
+<h3 class="text-xl font-['Pacifico'] mb-4">logo</h3>
+<p class="text-gray-400">Providing support and information for those affected by POTS.</p>
+</div>
+<div>
+<h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+<ul class="space-y-2 text-gray-400">
+<li><a href="#about" class="hover:text-blue-400">About POTS</a></li>
+<li><a href="#symptoms" class="hover:text-blue-400">Symptoms</a></li>
+<li><a href="#diagnosis" class="hover:text-blue-400">Diagnosis</a></li>
+<li><a href="#treatment" class="hover:text-blue-400">Treatment</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-lg font-semibold mb-4">Connect</h4>
+<ul class="space-y-2 text-gray-400">
+<li><a href="#" class="hover:text-blue-400">Support Group</a></li>
+<li><a href="#" class="hover:text-blue-400">Newsletter</a></li>
+<li><a href="#" class="hover:text-blue-400">Contact Us</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-lg font-semibold mb-4">Newsletter</h4>
+<p class="text-gray-400 mb-4">Stay updated with the latest POTS research and community news.</p>
+<form class="space-y-4">
+<input type="email" placeholder="Enter your email" class="w-full px-4 py-2 bg-gray-800 border-none rounded-button text-white placeholder-gray-400">
+<button type="submit" class="w-full px-4 py-2 bg-primary text-white rounded-button hover:bg-blue-700 transition-colors">
+Subscribe
+</button>
+</form>
+</div>
+</div>
+<div class="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
+<p>&copy; 2025 POTS Information Center. All rights reserved.</p>
+</div>
+</div>
+</footer>
+</body>
+</html>
